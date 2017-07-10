@@ -8,6 +8,14 @@ import java.io.Writer;
  * Created by Admin on 10-07-2017.
  */
 
+/*
+ * The code copied from http://opencsv.sourceforge.net/
+ *
+ * While incorporating into secrets, the following changes were made:
+ *
+ * - removed the following methods to keep the bytecode smaller:
+ *   writeAll(), all methods related to sql
+ */
     public class CSVWriter {
 
         private PrintWriter pw;
